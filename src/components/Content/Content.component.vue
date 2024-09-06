@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <div id='Content' classs='content component'>
-    <div class='content-container component-container'>
+  <div id='Content' class='content component flex flex-col min-h-full h-full'>
+    <div class='content-container component-container flex flex-col min-h-full'>
       <RouterView />
     </div>
   </div>

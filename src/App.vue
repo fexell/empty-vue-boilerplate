@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class='app-container'>
+  <div class='app-container flex flex-col min-h-screen h-px'>
     <ContentComponent />
   </div>
 </template>
@@ -14,4 +14,10 @@
       family: 'Lato', sans-serif
     background:
       color: theme('colors.gray.50')
+
+  .view
+    min-height: 100%
+
+    > .view-container
+      min-height: 100%
 </style>

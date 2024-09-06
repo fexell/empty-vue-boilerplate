@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <div id='Home' class='home view'>
+  <section id='Home' class='home view'>
     <div class='home-container view-container'>
       
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang='sass' scoped>
