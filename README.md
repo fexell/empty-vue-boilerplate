@@ -4,4 +4,4 @@ An empty vue boilerplate (with only a content component, for/with { RouterView }
 
 # Installation
 
-git clone https://github.com/fexell/empty-vue-boilerplate.git <name-of-project>
+git clone https://github.com/fexell/empty-vue-boilerplate.git &lt;project-name&gt;
