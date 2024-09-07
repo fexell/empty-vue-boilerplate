@@ -8,16 +8,6 @@
   </div>
 </template>
 
-<style lang='sass'>
-  body
-    font:
-      family: 'Lato', sans-serif
-    background:
-      color: theme('colors.gray.50')
+<style lang='sass' scoped>
 
-  .view
-    min-height: 100%
-
-    > .view-container
-      min-height: 100%
 </style>
