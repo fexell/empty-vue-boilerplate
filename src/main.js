@@ -10,8 +10,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import App from './App.vue'
 import router from './router'
 
-import './assets/tw.css'
-import './assets/main.sass'
+import './assets/styles/tw.css'
+import './assets/styles/main.sass'
 
 library.add(fab)
 library.add(far)
@@ -19,7 +19,7 @@ library.add(fas)
 
 const app = createApp(App)
 
-app.component('font-awesome-icon', FontAwesomeIcon)
+app.component('fa-icon', FontAwesomeIcon)
 
 app.use(createPinia())
 app.use(router)
