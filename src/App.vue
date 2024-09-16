@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class='app-container flex flex-col min-h-screen h-px'>
+  <div class='app-container flex flex-col min-h-screen'>
     <ContentComponent />
   </div>
 </template>
